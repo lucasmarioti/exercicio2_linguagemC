@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int matricula =210;
+    char sala = 'c';
+    float preço = 59;
+    char curso[2];
+    
+    
+    
+    printf("endereco da memoria: %p, endereco conteudo: %d \n", &matricula, matricula);
+    printf("endereco da memoria: %p, endereco conteudo: %c \n", &sala, sala);
+    printf("endereco da memoria: %p, endereco conteudo: %f \n", &preço, preço);
+    printf("endereco da memoria: %p, endereco conteudo: %s \n", &curso, curso);
+    
+    
+
+    return 0;
+}
